@@ -1,4 +1,4 @@
-PA3
+DFS Graph ADT
 
 Graph.c: File containing the Graph ADT function definitions and structs
 
