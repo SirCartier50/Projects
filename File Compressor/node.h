@@ -4,7 +4,7 @@
 /*
 * File:     node.h
 * Purpose:  Header file for node.c
-* Author:   Kerry Veenstra
+* Author:   Mignot Mesele
 *
 * -----------------------
 * DO NOT MODIFY THIS FILE
