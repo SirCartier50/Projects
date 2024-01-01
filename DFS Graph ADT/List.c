@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{3}
- * List.c
- * List ADT
+ * Author: Mignot Mesele
+ * Title: List.c
+ * Purpose: List ADT
  ***/
 
 #include "List.h"
