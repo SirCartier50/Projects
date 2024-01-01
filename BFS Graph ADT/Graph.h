@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{2}
- * Graph.h
- * Header file for Graph ADT
+ * Author: Mignot Mesele
+ * Title: Graph.h
+ * Purpose: Header file for Graph ADT
  ***/
 #ifndef GRAPH_H_INCLUDE
 #define GRAPH_H_INCLUDE
