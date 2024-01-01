@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{4}
- * MatrixTest.c
- * Testing file for Matrix ADT
+ * Author: Mignot Mesele
+ * Title: MatrixTest.c
+ * Purpose: Testing file for Matrix ADT
  * ***/
 
 #include<stdlib.h>
