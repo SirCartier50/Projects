@@ -66,7 +66,7 @@ int getOrder(Graph G){
 int getSize(Graph G){
 	return G->size;
 }	
-//check this for errors with source vertex
+
 int getSource(Graph G){
 	return G->source;
 }
@@ -94,13 +94,12 @@ int getDist(Graph G, int u){
 
 }
 
-//void getPath do later after bfs
+
 void getPath(List L, Graph G, int u){
 	if(getSource(G) != NIL){
 		if(u == getSource(G)){
 			append(L, u);
 		}else if(getParent(G,u) == NIL){
-			/*printf("No %d-%d path exits\n", getSource(u), u);*/
 			append(L, NIL);
 		}else{
 			getPath(L, G, getParent(G,u));
@@ -110,7 +109,7 @@ void getPath(List L, Graph G, int u){
 		exit(EXIT_FAILURE);
 	}
 }
-//void makeNULL
+
 void makeNull(Graph G){
 	for(int i = 1; i <= getOrder(G); i++){
 		clear(G->adj[i]);
