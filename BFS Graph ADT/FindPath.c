@@ -1,7 +1,7 @@
 /***
- * Mignot Mesele
- * FindPath.c
- * main implementation for finding shortest path
+ * Author: Mignot Mesele
+ * Title: FindPath.c
+ * Purpose: main implementation for finding shortest path
  ***/
 
 
