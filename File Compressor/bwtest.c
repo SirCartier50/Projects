@@ -1,7 +1,7 @@
 /*
 * File:     bwtest.c
 * Purpose:  Test bitwriter.c
-* Author:   Kerry Veenstra
+* Author:   Mignot Mesele
 */
 
 #include "bitwriter.h"
