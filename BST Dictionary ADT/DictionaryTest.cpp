@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{7}
- * DictionaryTest.cpp
- * Testing file for Dictionary ADT.
+ * Author: Mignot Mesele
+ * Title: DictionaryTest.cpp
+ * Purpose: Testing file for Dictionary ADT.
  * ***/
 
 #include<iostream>
