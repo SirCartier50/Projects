@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{4}
- * Sparse.c
- * main implementation for conducting sparse matrix operations
+ * Author: Mignot Mesele
+ * Title: Sparse.c
+ * Purpose: main implementation for conducting sparse matrix operations
  ***/
 
 #include<string.h>
