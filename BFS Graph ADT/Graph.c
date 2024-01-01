@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{2}
- * Graph.c
- * Graph ADT
+ * Author: Mignot Mesele
+ * Title: Graph.c
+ * Purpose: Graph ADT
  * ***/
 
 #include <stdbool.h>
