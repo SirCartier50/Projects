@@ -1,6 +1,6 @@
 /*
 * File:     names.h
-* Purpose:  Provide player names for CSE 13S, Spring 2023, Assignment 1
+* Purpose:  Provide player names
 */
 
 /*
