@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{7}
- * Dictionary.cpp
- * Dictionary ADT
+ * Author: Mignot Mesele
+ * Title: Dictionary.cpp
+ * Purpose: Dictionary ADT
  * ***/
 
 #include <stdexcept>
