@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{4}
- * ListTest.c
- * Testing file for List ADT
+ * Author: Mignot Mesele
+ * Title: ListTest.c
+ * Purpose: Testing file for List ADT
  * ***/
 
 #include "List.h"
