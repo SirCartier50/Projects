@@ -4,11 +4,7 @@
 /*
 * File:     bitwriter.h
 * Purpose:  Header file for bitwriter.c
-* Author:   Kerry Veenstra
-*
-* -----------------------
-* DO NOT CHANGE THIS FILE
-* -----------------------
+* Author:   Mignot Mesele
 */
 
 #include "io.h"
