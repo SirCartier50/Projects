@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{4}
- * Matrix.c
- * Matrix ADT
+ * Author: Mignot Mesele
+ * Title: Matrix.c
+ * Purpose: Matrix ADT
  * ***/
 
 #include"Matrix.h"
@@ -20,7 +18,7 @@ typedef struct MatrixObj{
 	int area;
 	int nnz;
 }MatrixObj;
-/*talk to ta about whether we should be allocating memory for entry*/
+
 Entry newEntry(int column, double data){
 	Entry E = malloc(sizeof(EntryObj));
 	E->column = column;
@@ -45,8 +43,7 @@ Matrix newMatrix(int n){
 	}
 	return M;
 }
-/* this needs some checking up on because it since i allocated memory for entry I need to free inside nodes
-void freeMatrix(*/
+
 void freeMatrix(Matrix* pM){
 	if(pM != NULL && *pM != NULL){
 		makeZero(*pM);
@@ -66,7 +63,7 @@ int NNZ(Matrix M){
 	return M->nnz;
 }
 
-/*eqals need making chwck if the length of each list is equal and first check if either matrix is null and then check if their size is the same. check if each entry is the same.*/
+
 int equals(Matrix A, Matrix B){
 	if((A == NULL) || (B == NULL)){
                 exit(EXIT_FAILURE);
@@ -115,7 +112,7 @@ void makeZero(Matrix M){
 		clear(M->adj[i]);
 	}
 }
-/*nned to free either new entry or old entry if there is data in the same column. nt*)maybe use set function*//*check cases if x is zero and if it exitswith the same colun number then delete exist entry otherwise do noitghing.*/ 
+ 
 void changeEntry(Matrix M, int i, int j, double x){
 	if((i < 1) || (i>M->area) || (j<1) || (j > M->area)){
 		printf("not in span\n");
@@ -239,7 +236,7 @@ Matrix sum(Matrix A, Matrix B){
                                 moveNext(B->adj[i]);
 			}
 		}
-		/*check if there are still entries to add*/
+		
 		while(index(A->adj[i]) >= 0){
 			AE = get(A->adj[i]);
 			changeEntry(A_B, i, AE->column, AE->data);
@@ -254,7 +251,7 @@ Matrix sum(Matrix A, Matrix B){
 	}
 	return A_B;
 }
-/*this function is wierd because its unsafe to not have a check for if the two are the same but since the whole point is having an empty Matrix so it still works since it skips columns and still gets the job done.*/
+
 Matrix diff(Matrix A, Matrix B){
         if((A == NULL) || (B == NULL)){
                 exit(EXIT_FAILURE);
@@ -283,7 +280,7 @@ Matrix diff(Matrix A, Matrix B){
                                 moveNext(B->adj[i]);
                         }
                 }
-                /*check if there are still entries to add*/
+                
                 while(index(A->adj[i]) >= 0){
                         AE = get(A->adj[i]);
                         changeEntry(A_B, i, AE->column, AE->data);
@@ -339,7 +336,7 @@ Matrix product(Matrix A, Matrix B){
 }
 
 
-/*remember to round to the tenths place*/
+
 void printMatrix(FILE* out, Matrix M){
 	for( int i = 1; i <= M->area; i++){
 		moveFront(M->adj[i]);
