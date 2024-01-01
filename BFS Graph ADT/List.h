@@ -1,9 +1,7 @@
 /***
- * Mgnot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{2}
- * List.h
- * Header file for List ADT
+ * Author: Mgnot Mesele
+ * Title: List.h
+ * Purpose: Header file for List ADT
  ***/
 #ifndef LIST_H_INCLUDE
 #define LIST_H_INCLUDE
