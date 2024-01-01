@@ -1,4 +1,4 @@
-/*had help from tutors lev and tony. Also from ben and jess*/
+
 #include "bitwriter.h"
 #include "io.h"
 #include "pq.h"
