@@ -1,4 +1,4 @@
-pa2
+BFS Graph ADT
 
 Graph.c: File containing the Graph ADT function definitions and structs
 
