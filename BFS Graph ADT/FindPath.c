@@ -1,7 +1,5 @@
 /***
  * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{2}
  * FindPath.c
  * main implementation for finding shortest path
  ***/
