@@ -1,4 +1,4 @@
-PA4
+Matrix ADT
 
 Matrix.c: File containing the Matrix ADT function definitions and structs
 
