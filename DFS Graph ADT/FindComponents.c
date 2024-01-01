@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{3}
- * FindComponents.c
- * main implementation for finding strong connected components
+ * Author: Mignot Mesele
+ * Title: FindComponents.c
+ * Purpose: main implementation for finding strong connected components
  ***/
 
 
