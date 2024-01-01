@@ -1,7 +1,7 @@
 /*
 * File:     pqtest.c
 * Purpose:  Test pq.c
-* Author:   Kerry Veenstra
+* Author:   Mignot Mesele
 */
 
 #include "pq.h"
