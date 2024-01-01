@@ -34,7 +34,6 @@ int main(void) {
         fprintf(stderr, "Invalid number of players. Using 2 instead.\n");
         num_players = 2;
     }
-    // printf("%d\n", num_players);
     unsigned seed = 2023;
     printf("Random-number seed? ");
     int num_assignments = scanf("%u", &seed);
