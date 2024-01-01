@@ -1,7 +1,7 @@
 /*
 * File:     nodetest.c
 * Purpose:  Test node.c
-* Author:   Kerry Veenstra
+* Author:   Mignot Mesele
 */
 
 #include "node.h"
