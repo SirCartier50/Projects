@@ -1,4 +1,4 @@
-PA7
+BST Dictionary ADT
 
 Dictionary.h:Header file for the Dictionary ADT containing its prototypes.
 
