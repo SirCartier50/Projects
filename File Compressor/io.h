@@ -3,7 +3,7 @@
 
 // Header file for CSE13s Section 1 asgn5
 // io.h
-// Made by Dr. Kerry Veenstra
+// Made by Mignot Mesele
 // DO NOT modify this file.
 
 #include <inttypes.h>
