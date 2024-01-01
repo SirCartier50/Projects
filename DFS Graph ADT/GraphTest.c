@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{3}
- * GraphTest.c
- * Testing script for Graph ADT
+ * Author: Mignot Mesele
+ * Title: GraphTest.c
+ * Purpose: Testing script for Graph ADT
  * ***/
 
 #include "Graph.h"
