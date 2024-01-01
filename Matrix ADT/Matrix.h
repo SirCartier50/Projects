@@ -1,9 +1,9 @@
 /***
- * Mignot Mesele
+ * Author: Mignot Mesele
  * mmesele
  * 2023 Fall CSE101 PA{4}
- * Matrix.h
- * Matrix ADT header
+ * Title: Matrix.h
+ * Purpose: Matrix ADT header
  * ***/
 #ifndef MATRIX_H_INCLUDE
 #define MATRIX_H_INCLUDE
