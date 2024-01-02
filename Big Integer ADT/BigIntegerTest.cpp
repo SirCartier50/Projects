@@ -1,10 +1,9 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * BigIntegerTest.cpp
- * test file for the BigInteger ADT
+ * Author: Mignot Mesele
+ * Title: BigIntegerTest.cpp
+ * Purpose: test file for the BigInteger ADT
  * ***/
+/* side note: even though the code looks like this, it still runs so this is fine. This happened because I tried copying and pasting from vim which I changed by messing with vimrc to get indentation which resulted to this*/
 
 #include<iostream>
 #include<string>
@@ -20,7 +19,7 @@ int main() {
    cout << "start" << endl;
    BigInteger A = BigInteger(s1);
    BigInteger B = BigInteger(s3);
-      BigInteger C = BigInteger(s5);
+   BigInteger C = BigInteger(s5);
 
 	     cout << endl;
 
