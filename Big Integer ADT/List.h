@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * List.h
- * List header
+ * Author: Mignot Mesele
+ * Title: List.h
+ * Purpose: List header
  * ***/
 
 #include <iostream>
