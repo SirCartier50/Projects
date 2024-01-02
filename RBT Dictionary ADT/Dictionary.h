@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{8}
- * Dictionary.h
- * Dictionary ADT Header
+ * Author: Mignot Mesele
+ * Title: Dictionary.h
+ * Purpose: Dictionary ADT Header
  * ***/
 
 #include<iostream>
