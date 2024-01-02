@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * List.cpp
- * List ADT
+ * Author: Mignot Mesele
+ * Title: List.cpp
+ * Purpose: List ADT
  * ***/
 
 #include <stdexcept>
@@ -109,9 +107,7 @@ void List::moveBack(){
                 beforeCursor = backDummy->prev;
                 afterCursor = backDummy;
                 pos_cursor = length();
-        }/*else{
-		throw std::length_error("cant move to back\n");
-        }*/
+        }
 }
 
 ListElement List::moveNext(){
