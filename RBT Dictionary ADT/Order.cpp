@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{8}
- * Order.cpp
- * Top Client function for Dictionary ADT
+ * Author: Mignot Mesele
+ * Title: Order.cpp
+ * Purpose: Top Client function for Dictionary ADT
  * ***/
 
 #include<iostream>
