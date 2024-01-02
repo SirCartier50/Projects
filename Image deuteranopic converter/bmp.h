@@ -1,6 +1,6 @@
-// Header file for CSE13s Section 1 asgn5
+// Header file
 // bmp.h
-// Made by Dr. Kerry Veenstra
+// Made by Mignot Mesele
 // DO NOT modify this file.
 
 #include "io.h"
