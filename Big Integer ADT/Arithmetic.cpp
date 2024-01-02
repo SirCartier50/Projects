@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * Arithmetic.cpp
- * Test File for BigInteger ADT
+ * Author: Mignot Mesele
+ * Title: Arithmetic.cpp
+ * Purpose: Test File for BigInteger ADT
  * ***/
 
 #include<iostream>
