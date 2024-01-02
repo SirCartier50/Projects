@@ -1,10 +1,9 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * ListTest.cpp
- * Test file for List ADT
+ * Author: Mignot Mesele
+ * Title: ListTest.cpp
+ * Purpose: Test file for List ADT
  * ***/
+/* side note: even though the code looks like this, it still runs so this is fine. This happened because I tried copying and pasting from vim which I changed by messing with vimrc to get indentation which resulted to this*/
 
 #include<iostream>
 #include<string>
