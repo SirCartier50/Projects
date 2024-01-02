@@ -1,4 +1,4 @@
-PA6
+Big Integer ADT
 
 BigInteger.cpp:file containing the functions for the BigInteger ADT.
 
