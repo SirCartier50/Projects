@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * BigInteger.cpp
- * BigInteger ADT
+ * Author: Mignot Mesele
+ * Title: BigInteger.cpp
+ * Purpose: BigInteger ADT
  * ***/
 
 #include <stdexcept>
