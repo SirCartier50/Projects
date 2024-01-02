@@ -13,9 +13,6 @@
 static char filename[] = "/tmp/iotest.XXXXXX";
 static int fd = -1;
 
-// this is a bunch of macro nonsense that you don't have to understand, but talk to ben on discord
-// if you want to!
-// the short version is you can write:
 // TEST(x == 5, "expected x to be 5 but it was %d", x)
 // and that will exit with a friendly message if x != 5
 #define TEST(condition, message, ...)                                                              \
@@ -154,14 +151,5 @@ int main(int argc, char **argv) {
 
     unlink(filename);
     close(fd);
-
-    printf(
-        "At this point all tests have passed. Congratulations! Additional things you can try:\n"
-        "- run this program with valgrind to make sure you don't access invalid memory and you\n"
-        "  free everything (the test calls read/write_close, so if there are leaks it's because\n"
-        "  you don't free everything that you should)\n"
-        "- run 'strace -e trace=read,write %s' and make sure you are reading and writing %u-byte\n"
-        "  chunks (all reads/writes on file descriptor 4 are from your IO code)\n",
-        argv[0], BUFFER_SIZE);
     return 0;
 }
