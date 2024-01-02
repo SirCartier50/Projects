@@ -1,6 +1,6 @@
 /*
  * File:     mathlib.h
- * Purpose:  CSE 13S, Spring 2023, Assignment 2
+ * Purpose:  header file for math library
  */
 
 /*
