@@ -1,9 +1,7 @@
 /***
- * Mignot Mesele
- * mmesele
- * 2023 Fall CSE101 PA{6}
- * BigInteger.h
- * BigInteger ADT Header
+ * Author: Mignot Mesele
+ * Title: BigInteger.h
+ * Purpose: BigInteger ADT Header
  * ***/
 
 #include<iostream>
