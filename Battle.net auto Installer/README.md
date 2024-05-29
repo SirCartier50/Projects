@@ -1,4 +1,5 @@
 Battle.net auto installer
+
     Purpose:
         The purpose of this automation script is to automatatically install warzone(for now) on the battle.net installer. For context, i have a second ssd that i wanted to download games on but for some reason during download, file explorer opens and battle.net doesn't respond which pauses the download. It became annoying since i had to be on stanby when i felt like downloading the game, closing and reopening the launcher waiting for no response from the launcher. So then I thought of making a script that would do all this repetative work for me while i wasn't on my PC.
     
