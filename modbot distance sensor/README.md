@@ -1,1 +1,1 @@
-header file and code for distance sensor
+source code for distance sensor
