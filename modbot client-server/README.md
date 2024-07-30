@@ -14,6 +14,42 @@ The Modbot Wireless Control System is a client-server setup designed to send con
 
 1. Ensure you have `pip` installed on your system. You can install `pip` by following the instructions [here](https://pip.pypa.io/en/stable/installation/).
 
-2. Run the `install.py` script to install all necessary dependencies:
-   ```bash
-   python install.py
+2. Run the `install.py` script to install all necessary dependencies: `python install.py`
+
+3. Update the IP addresses in the server and client files to match your network setup.
+
+## Files
+
+### `install.py`
+
+This script reads through the `requirements.txt` file and installs the necessary Python packages using `pip`.
+
+### `requirements.txt`
+
+Contains a list of Python packages required for the system to run. The `install.py` script uses this file to install dependencies.
+
+### `client.py`
+
+The client-side script that captures controller inputs and sends them to the server. Make sure to change the IP address in this file to match the server's IP address.
+
+### `server.py`
+
+The server-side script that receives and prints out controller inputs with timestamps in milliseconds. The server prints out its IP address on startup, which should be used in the `client.py` file.
+
+### `Controller.py`
+
+Contains the source code of the Controller class to help manage all controllers.
+
+### `procon.py`
+
+Contains the source code of the procon Class to include joycon capabilites.
+
+## Usage
+
+1. Start the server:
+   python server.py
+
+2. Start the client:
+   python client.py
+
+3. Use the PS4 controller to send inputs. The server will print out the inputs with timestamps in milliseconds.
