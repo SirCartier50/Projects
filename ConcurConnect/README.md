@@ -1,12 +1,14 @@
 # ConcurConnect
 
-This directory contains source code and other files for Assignment 4.
 
-httpserver.c: source code for httpserver
+## httpserver.c 
+source code for httpserver
 
-httpserver.h: header file for httpserver
+# httpserver.h 
+header file for httpserver
 
-protocol.h: header file for regex defines
+# protocol.h
+header file for regex defines
 
 asgn2_helper_funcs.h: header file for helper functions
 
