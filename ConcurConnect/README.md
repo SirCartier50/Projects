@@ -4,22 +4,29 @@
 ## httpserver.c 
 source code for httpserver
 
-# httpserver.h 
+### httpserver.h 
 header file for httpserver
 
-# protocol.h
+## protocol.h
 header file for regex defines
 
-asgn2_helper_funcs.h: header file for helper functions
+## asgn2_helper_funcs.h 
+header file for helper functions
 
-asgn4_helper_funcs.a: binary for helper functions
+## asgn4_helper_funcs.a
+binary for helper functions
 
-Makefile: makes objects and executables
+## Makefile 
+makes objects and executables
 
-list.c: source code for generic list ADT (this is from my cse101 files so if someone else has the same thing this is why)
+## list.c
+source code for generic list ADT
 
-list.h: header file for generic list ADT (this is from my cse101 files so if someone else has the same thing this is why)
+## list.h
+header file for generic list ADT
 
-queue.h: header file for thread safe queue API
+## queue.h
+header file for thread safe queue API
 
-rwlock.h: header file for rwlock API
+## rwlock.h
+header file for rwlock API
